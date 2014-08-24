@@ -1,0 +1,80 @@
+#footer
+  color color-meta
+  margin-bottom 36px
+  font 0.9em/1.6 font-title
+  text-shadow 0 0 1px #fff
+  text-align center
+
+#foot-nav
+  ul
+    list-style none
+    li
+      display inline
+      margin-right 48px
+      &:last-of-type
+        margin-right 0px
+
+.footer-btn
+  position fixed
+  right 36px
+  cursor pointer
+  @media screen and (max-width: 600px)
+    right 15px
+  a
+    img
+      @media screen and (max-width: 900px)
+        width 36px
+        height 36px
+      @media screen and (max-width: 600px)
+        width 32px
+        height 32px
+
+.social
+  li
+    a
+      -webkit-border-radius 50%
+      -moz-border-radius 50%
+      -ms-border-radius 50%
+      -o-border-radius 50%
+      border-radius 50%
+      display -moz-inline-stack
+      display inline-block
+      vertical-align middle
+      zoom 1
+      text-indent -9999px
+      margin 0 15px 15px 0
+      opacity 0.5
+      width 28px
+      height 28px
+      -webkit-transition 0.3s
+      -moz-transition 0.3s
+      -o-transition 0.3s
+      transition 0.3s
+      &:hover
+        opacity 1
+      &:last-of-type
+        margin-right 0px
+
+.weibo
+  background url('/img/weibo.png') center no-repeat #d52b2a
+  border 1px solid #d52b2a
+
+.google
+  background url('/img/google.png') center no-repeat #c83d20
+  border 1px solid #c83d20
+
+.github
+  background url('/img/github.png') center no-repeat #afb6ca
+  border 1px solid #afb6ca
+
+.rss
+  background url('/img/rss.png') center no-repeat #ef7522
+  border 1px solid #ef7522
+
+.twitter
+  background url('/img/twitter.png') center no-repeat #55ACEE
+  border 1px solid #55ACEE
+
+.stackoverflow
+  background url('/img/stackoverflow.png') center no-repeat #222222
+  border 1px solid #222222

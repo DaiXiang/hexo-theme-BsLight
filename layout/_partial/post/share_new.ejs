@@ -1,0 +1,7 @@
+<div class="alignright share-box">
+  <% if (item.share) { %>
+    <% for (var i in theme.share){ %>
+      <a class="share-link share-<%= i %>" href="<%- theme.share[i] %>?url=<%- item.permalink %>&title=<%- item.description %>《<%- item.title %>》" title="<%= i %>"></a>
+    <% } %>
+  <% } %>
+</div>

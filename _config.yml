@@ -1,0 +1,42 @@
+menu:
+  Home: /
+  Archives: /archives
+  About: /about-me
+
+social:
+  weibo: http://weibo.com/deffity
+  twitter: https://twitter.com/daixiang0919
+  google: https://plus.google.com/111981717585872445427
+  github: https://github.com/DaiXiang
+  stackoverflow: http://stackoverflow.com/users/3762431
+  rss: http://deffi.info/atom.xml
+
+widgets:
+- tag
+
+excerpt_link: Read More
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+share:
+  weibo: http://v.t.sina.com.cn/share/share.php
+  google: https://plus.google.com/share
+
+addthis:
+  enable: false
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+fancybox: true
+
+google_analytics: UA-53929214-1
+rss: http://deffi.info/atom.xml
+
+comment_provider: 
+# Facebook comment

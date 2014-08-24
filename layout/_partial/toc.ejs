@@ -1,0 +1,6 @@
+<% if(item.toc && item.toc != false){ %>
+    <div id="toc" class="toc-article">
+        <strong class="toc-title"><%= __('navigation') %></strong>
+        <%- toc(item.content) %>
+    </div>
+<% } %>

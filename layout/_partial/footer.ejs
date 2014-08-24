@@ -1,0 +1,15 @@
+<div id="foot-nav">
+  <ul class="social">
+    <% for (var i in theme.social){ %>
+      <li><a class="<%= i %>" href="<%- theme.social[i] %>" title="<%= i %>"><%= i %></a></li>
+    <% } %>
+  </ul>
+</div>
+<div>
+  <% if (config.author) { %>
+    &copy; <%= new Date().getFullYear() %> <%= config.author %>
+  <% } else { %>
+    &copy; <%= new Date().getFullYear() %> <%= config.title %>
+  <% } %>
+</div>
+<div class="clearfix"></div>
