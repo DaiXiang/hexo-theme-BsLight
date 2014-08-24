@@ -2,13 +2,6 @@ menu:
   Home: /
   Archives: /archives
 
-social:
-# key weibo/twitter/google/github/stackoverflow/rss
-# value url
-# e.g github: https://github.com/DaiXiang
-  github: https://github.com/DaiXiang
-  rss: /atom.xml
-
 widgets:
 # search/tag/category/recent_posts/tagcloud
 - tag
@@ -19,6 +12,13 @@ twitter:
   username:
   show_replies: false
   tweet_count: 5
+
+social:
+# key weibo/twitter/google/github/stackoverflow/rss
+# value url
+# e.g github: https://github.com/DaiXiang
+  github: https://github.com/DaiXiang
+  rss: /atom.xml
 
 share:
 # Only support Sina-Weibo/Google-Plus now

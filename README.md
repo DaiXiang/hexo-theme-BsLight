@@ -43,13 +43,6 @@ menu:
   Home: /
   Archives: /archives
 
-social:
-# key weibo/twitter/google/github/stackoverflow/rss
-# value url
-# e.g github: https://github.com/DaiXiang
-  github: https://github.com/DaiXiang
-  rss: /atom.xml
-
 widgets:
 # search/tag/category/recent_posts/tagcloud
 - tag
@@ -60,6 +53,13 @@ twitter:
   username:
   show_replies: false
   tweet_count: 5
+
+social:
+# key weibo/twitter/google/github/stackoverflow/rss
+# value url
+# e.g github: https://github.com/DaiXiang
+  github: https://github.com/DaiXiang
+  rss: /atom.xml
 
 share:
 # Only support Sina-Weibo/Google-Plus now
@@ -81,3 +81,23 @@ fancybox: true
 google_analytics:
 rss:
 ```
+
+- **menu** - Main navigation menu
+- **widget** - Widgets displaying in sidebar
+- **excerpt_link** - "Read More" link text at the bottom of excerpted articles
+- **twitter** - Twitter widget config
+  - **username** - Twitter username
+  - **show_replies** - Enable displaying replies
+  - **tweet_count** - Tweets display in widget
+- **social** - Private Social Network buttons at the buttom of site
+- **share** - Share buttons at the buttom of articles
+- **addthis** - Share buttons at the buttom of articles (Powered by [AddThis])
+  - **enable** - Enable share buttons
+  - **pubid** - Profile ID of [AddThis]
+  - **facebook** - Enable Facebook button
+  - **twitter** - Enable Twitter button
+  - **google** - Enable Google+ button
+  - **pinterest** - Enable Pinterest button
+- **fancybox** - Enable [Fancybox]
+- **google_analytics** - Google Analytics ID
+- **rss** - RSS subscription link (change if using Feedburner)
