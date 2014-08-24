@@ -21,3 +21,63 @@ Execute the following command to update BsLight.
 cd themes/bs-light
 git pull
 ```
+
+## Change Log
+
+- 增加文章目录导航，Quick Nav
+- 增加返回顶部，Return to Top
+- 增加底部社交网络设置，Social Network
+- 增加文章分享，Share
+- 更新主题部分颜色
+- 更新头部样式，Like Bootstrap
+- 更新侧边栏 Widget 样式，Like Bootstrap
+- 更新 Read More/Comment 链接样式和位置
+- 优化响应式支持
+
+## Config
+
+Default:
+
+``` yaml
+menu:
+  Home: /
+  Archives: /archives
+
+social:
+# key weibo/twitter/google/github/stackoverflow/rss
+# value url
+# e.g github: https://github.com/DaiXiang
+  github: https://github.com/DaiXiang
+  rss: /atom.xml
+
+widgets:
+# search/tag/category/recent_posts/tagcloud
+- tag
+
+excerpt_link: Read More
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+share:
+# Only support Sina-Weibo/Google-Plus now
+# key weibo/google
+# value share link
+  weibo: http://v.t.sina.com.cn/share/share.php
+  google: https://plus.google.com/share
+
+addthis:
+  enable: false
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+fancybox: true
+
+google_analytics:
+rss:
+```
