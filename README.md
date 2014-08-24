@@ -15,7 +15,7 @@ git clone https://github.com/DaiXiang/hexo-theme-BsLight.git themes/bs-light
 
 ## Update
 
-Execute the following command to update Light.
+Execute the following command to update BsLight.
 
 ```
 cd themes/bs-light
