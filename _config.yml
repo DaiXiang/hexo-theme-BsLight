@@ -1,17 +1,16 @@
 menu:
   Home: /
   Archives: /archives
-  About: /about-me
 
 social:
-  weibo: http://weibo.com/deffity
-  twitter: https://twitter.com/daixiang0919
-  google: https://plus.google.com/111981717585872445427
+# key weibo/twitter/google/github/stackoverflow/rss
+# value url
+# e.g github: https://github.com/DaiXiang
   github: https://github.com/DaiXiang
-  stackoverflow: http://stackoverflow.com/users/3762431
-  rss: http://deffi.info/atom.xml
+  rss: /atom.xml
 
 widgets:
+# search/tag/category/recent_posts/tagcloud
 - tag
 
 excerpt_link: Read More
@@ -22,6 +21,9 @@ twitter:
   tweet_count: 5
 
 share:
+# Only support Sina-Weibo/Google-Plus now
+# key weibo/google
+# value share link
   weibo: http://v.t.sina.com.cn/share/share.php
   google: https://plus.google.com/share
 
@@ -35,8 +37,8 @@ addthis:
 
 fancybox: true
 
-google_analytics: UA-53929214-1
-rss: http://deffi.info/atom.xml
+google_analytics:
+rss:
 
 comment_provider: 
 # Facebook comment
