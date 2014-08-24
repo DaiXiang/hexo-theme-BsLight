@@ -25,13 +25,16 @@ git pull
 ## Change Log
 
 - 增加文章目录导航，Quick Nav
+  - 需要在 post 中配置 ```toc: true```
 - 增加返回顶部，Return to Top
 - 增加底部社交网络设置，Social Network
 - 增加文章分享，Share
+  - 需要在 post 中配置 ```share: true```
 - 更新主题部分颜色
 - 更新头部样式，Like Bootstrap
 - 更新侧边栏 Widget 样式，Like Bootstrap
 - 更新 Read More/Comment 链接样式和位置
+  - 评论需在 post 中配置才能打开 ```comment: true```
 - 优化响应式支持
 
 ## Config
