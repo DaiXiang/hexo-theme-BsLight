@@ -21,7 +21,7 @@
         <%- item.excerpt %>
       <% } else { %>
         <% if (!index){ %>
-          <%- partial('toc') %>
+          <%- partial('extra/toc') %>
         <% } %>
         <%- item.content %>
       <% } %>
@@ -47,5 +47,5 @@
 
 <%- partial('comment') %>
 <% if(!index && item.toc){ %>
-  <%- partial('toc_action') %>
+  <%- partial('extra/toc_action') %>
 <% } %>
