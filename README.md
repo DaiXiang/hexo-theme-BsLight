@@ -24,6 +24,15 @@ git pull
 
 ## Change Log
 
+### 2014-10-08 Add Swiftype Support
+需自行在主题新增配置:
+```
+swiftype_search:
+  enable: true
+  install_code: 
+  search_input_selector: st-search-input
+```
+
 - 增加文章目录导航，Quick Nav
   - 需要在 post 中配置 ```toc: true```
 - 增加返回顶部，Return to Top
