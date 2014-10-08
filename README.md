@@ -33,6 +33,7 @@ swiftype_search:
   search_input_selector: st-search-input
 ```
 
+### 2014-08
 - 增加文章目录导航，Quick Nav
   - 需要在 post 中配置 ```toc: true```
 - 增加返回顶部，Return to Top
