@@ -25,11 +25,13 @@ git pull
 ## Change Log
 
 ### 2014-10-08 Add Swiftype Support
-需自行在主题新增配置:
+需自行在主题配置:
 ```
 swiftype_search:
   enable: true
-  install_code: 
+  #安装码，从 swiftype 提供的代码中获取
+  install_code:
+  #选择自定义搜索框模式，需指定搜索框ID
   search_input_selector: st-search-input
 ```
 
