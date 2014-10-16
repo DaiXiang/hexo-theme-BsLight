@@ -31,7 +31,7 @@ swiftype_search:
   enable: true
   #安装码，从 swiftype 提供的代码中获取
   install_code:
-  #选择自定义搜索框模式，需指定搜索框ID
+  #选择 SAME PAGE 模式，需指定搜索框 ID
   search_input_selector: st-search-input
 ```
 
