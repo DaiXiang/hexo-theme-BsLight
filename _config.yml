@@ -42,3 +42,8 @@ rss:
 
 comment_provider: 
 # Facebook comment
+
+swiftype_search:
+  enable: false
+  install_code: 
+  search_input_selector: #st-search-input
