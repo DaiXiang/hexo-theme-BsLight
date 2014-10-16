@@ -46,4 +46,4 @@ comment_provider:
 swiftype_search:
   enable: false
   install_code: 
-  search_input_selector: #st-search-input
+  search_input_selector: # st-search-input

@@ -24,7 +24,7 @@ git pull
 
 ## Change Log
 
-### 2014-10-08 Add Swiftype Support
+### 2014-10-08 Add [Swiftype](https://swiftype.com/) Support
 需自行在主题配置:
 ```
 swiftype_search:
@@ -95,6 +95,11 @@ fancybox: true
 
 google_analytics:
 rss:
+
+swiftype_search:
+  enable: false
+  install_code: 
+  search_input_selector: # st-search-input
 ```
 
 - **menu** - Main navigation menu
