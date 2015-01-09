@@ -5,6 +5,7 @@ menu:
 widgets:
 # search/tag/category/recent_posts/tagcloud
 - tag
+- search
 
 excerpt_link: Read More
 
@@ -38,6 +39,10 @@ addthis:
 fancybox: true
 
 google_analytics:
+
+google_docs_id:
+report_name: #BlogPageviews
+
 rss:
 
 comment_provider: 
