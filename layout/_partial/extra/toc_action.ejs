@@ -1,5 +1,5 @@
-<div id="menu-nav" class="footer-btn">
-  <a title="<%= __('quick_nav') %>"><img src="/img/list.png"/></a>
+<div id="menu-nav" class="footer-btn quick-nav-close">
+  <a title="<%= __('quick_nav') %>"></a>
 </div>
 
 <script type="text/javascript">
@@ -8,8 +8,11 @@
     var nav = $('#menu-nav');
     var toccopy;
     var status = true;
-    if ($(window).width() <= 583)
+    if ($(window).width() <= 583) {
       status = false;
+      $('#menu-nav').removeClass("quick-nav-close");
+      $('#menu-nav').addClass("quick-nav-open");
+    }
     var first = true;
     var position = toc.position();
     var wid = toc.width();
@@ -75,9 +78,13 @@
       if (status) {
         status = false;
         hidNav();
+        $('#menu-nav').removeClass("quick-nav-close");
+        $('#menu-nav').addClass("quick-nav-open");
       } else {
         status = true;
         tocout();
+        $('#menu-nav').removeClass("quick-nav-open");
+        $('#menu-nav').addClass("quick-nav-close");
       }
     }
   });

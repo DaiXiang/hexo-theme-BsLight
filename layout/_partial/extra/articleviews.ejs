@@ -1,0 +1,11 @@
+<script type="text/javascript">
+  var views = sessionStorage.getItem('<%- path %>');
+  console.log(views)
+  if (views != null) {
+    var post = document.getElementById('<%- path %>');
+    post.innerHTML = views;
+    post.style.display = "inline";
+  } else {
+    <%- partial('pageviews', {current: 0, posts: null, target: partial('get_post_views', {path: path})}) %>
+  }
+</script>

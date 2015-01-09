@@ -1,5 +1,10 @@
+<% var paths = []; %>
 <% page.posts.each(function(item){ %>
   <%- partial('_partial/article', {item: item, index: true}) %>
+  <% paths.push("/" + item.path); %>
 <% }); %>
 
 <%- partial('_partial/pagination') %>
+<% if(theme.google_docs_id){ %>
+  <%- partial('_partial/extra/script_template', {target: partial('_partial/extra/pageviews', {current: page.current, posts: paths, target: partial('_partial/extra/indexviews', {posts: paths, current: page.current})})}) %>
+<% } %>

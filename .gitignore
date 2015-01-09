@@ -1,3 +1,5 @@
 .DS_Store
+_config.yml
 _config.yml~
+_config.yml.default
 .gitignore~

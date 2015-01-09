@@ -1,0 +1,8 @@
+$.each(json.<%- theme.report_name %>, function(index, item){
+  if(item.<%- theme.report_name %> == '<%- path %>'){
+    var post = document.getElementById(item.<%- theme.report_name %>);
+    post.innerHTML = item.undefined;
+    post.style.display = "inline";
+    sessionStorage.setItem(item.<%- theme.report_name %>, item.undefined);
+  }
+})

@@ -21,13 +21,24 @@
   @media screen and (max-width: 600px)
     right 15px
   a
-    img
-      @media screen and (max-width: 900px)
-        width 36px
-        height 36px
-      @media screen and (max-width: 600px)
-        width 32px
-        height 32px
+    font-family 'FontAwesome'
+    font-size 3.5em
+    @media screen and (max-width: 900px)
+      font-size 3em
+    @media screen and (max-width: 600px)
+      font-size 2.5em
+    color color-font
+    &:hover
+      text-decoration none
+.to-top
+  a:before
+    content '\f139'
+.quick-nav-open
+  a:before
+    content '\f055'
+.quick-nav-close
+  a:before
+    content '\f056'
 
 .social
   li

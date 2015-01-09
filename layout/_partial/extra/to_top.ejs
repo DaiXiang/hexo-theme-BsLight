@@ -1,5 +1,5 @@
-<div id="totop" class="footer-btn">
-  <a title="<%= __('return_top') %>"><img src="/img/scrollup.png"/></a>
+<div id="totop" class="footer-btn to-top">
+  <a title="<%= __('return_top') %>"></a>
 </div>
 
 <script type="text/javascript">
@@ -20,7 +20,7 @@
 		var scrollTop = $(document).scrollTop();       
 		if ( scrollTop > upperLimit ) {
 		  $(scrollElem).stop().fadeTo(300, 1); // fade back in
-		  $(scrollElem).animate({bottom: "50px"}, { queue: false, duration: 10 });
+		  $(scrollElem).animate({bottom: "58px"}, { queue: false, duration: 10 });
 		} else {
 		  $(scrollElem).stop().fadeTo(300, 0); // fade out
 	      $(scrollElem).animate({bottom: "-200px"}, { queue: false, duration: 10 });

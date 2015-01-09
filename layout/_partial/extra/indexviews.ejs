@@ -1,0 +1,10 @@
+var paths = <%- JSON.stringify(posts) %>
+sessionStorage.setItem('<%- config.url %>' + "/pageviews/" + '<%- current %>', "yes");
+$.each(json.<%- theme.report_name %>, function(index, item){
+  if($.inArray(item.<%- theme.report_name %>, paths) >= 0){
+    var post = document.getElementById(item.<%- theme.report_name %>);
+    post.innerHTML = item.undefined;
+    post.style.display = "inline";
+    sessionStorage.setItem(item.<%- theme.report_name %>, item.undefined);
+  }
+})
