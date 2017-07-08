@@ -3,7 +3,7 @@ BsLight
 
 A theme based on [Light](https://github.com/hexojs/hexo-theme-light) for [Hexo](http://hexo.io)
 
-- **[Demo](http://deffi.info)**
+- **[Demo](http://daixiang.github.io)**
 
 ## Install
 
